@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #333;
+    background-color: black;
 }
 
 .card{
@@ -22,15 +22,15 @@ body{
 .card .lines{
     position: absolute;
     inset: 0;
-    background-color: black;
+    background-color: white;
     overflow: hidden;
 }
 
 .card .lines::before{
     content: '';
-    background: linear-gradient(transparent,red,green,blue,transparent);
+    background: linear-gradient(transparent,black,black,black,transparent);
     width: 700px;
-    height: 220px;
+    height: 500px;
     top: 50%;
     left: 50%;
     position: absolute;
